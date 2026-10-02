@@ -22,6 +22,7 @@
   </div>
 
   <p>
+    <a href="#-live-demo">Demo</a> •
     <a href="#-features">Features</a> •
     <a href="#-tech-stack">Tech Stack</a> •
     <a href="#-quick-start">Quick Start</a> •
@@ -35,7 +36,25 @@
 
 ---
 
+## 🎬 Live Demo
+
+<div align="center">
+  <p><b>See NyaySutra in action — click the preview to watch the full walkthrough.</b></p>
+  <a href="https://drive.google.com/file/d/1wM_cUwJtz64HOw6rcwBpQhjwhKV1oDJr/view?usp=sharing">
+    <img src="https://drive.google.com/thumbnail?id=1wM_cUwJtz64HOw6rcwBpQhjwhKV1oDJr&sz=w1000" alt="NyaySutra Demo" width="80%"/>
+  </a>
+  <br/><br/>
+  <em>Role-based court workflow, blockchain-secured evidence and FIR management.</em>
+  <br/><br/>
+  <a href="https://drive.google.com/file/d/1wM_cUwJtz64HOw6rcwBpQhjwhKV1oDJr/view?usp=sharing">
+    <img src="https://img.shields.io/badge/▶_Watch_Demo_Video-1D4ED8?style=for-the-badge&logo=googledrive&logoColor=white" alt="Watch Demo Video"/>
+  </a>
+</div>
+
+---
+
 ## 📋 Table of Contents
+- [🎬 Live Demo](#-live-demo)
 - [✨ Features](#-features)
 - [🛠 Tech Stack](#-tech-stack)
 - [🚀 Quick Start](#-quick-start)
