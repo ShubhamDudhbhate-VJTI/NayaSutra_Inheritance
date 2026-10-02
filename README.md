@@ -172,7 +172,7 @@
 ## 🚀 Quick Start
 
 ### Prerequisites
-````bash
+```bash
 # Required versions
 Node.js >= 18.0.0
 npm >= 9.0.0
@@ -181,34 +181,34 @@ Git >= 2.40.0
 # Optional: For blockchain development
 Foundry >= 0.2.0
 Solc >= 0.8.0
-````
+```
 
 ### Installation
 
 **1️⃣ Clone the repository**
-````bash
+```bash
 git clone https://github.com/yourusername/NayaSutra.git
 cd NayaSutra
-````
+```
 
 **2️⃣ Install dependencies (all workspaces)**
-````bash
+```bash
 npm install
-````
+```
 
 **3️⃣ Set up environment variables**
-````bash
+```bash
 # Frontend (.env)
 VITE_SUPABASE_URL=your_supabase_url
 VITE_SUPABASE_ANON_KEY=your_supabase_key
 VITE_WEB3_PROVIDER=your_web3_provider
 
 # Backend (already managed by Supabase)
-````
+```
 
 **4️⃣ Start development servers**
 
-````bash
+```bash
 # Start all services (Frontend + Backend)
 npm run dev:all
 
@@ -216,22 +216,22 @@ npm run dev:all
 npm run dev              # Frontend only
 npm -w backend run dev   # Supabase backend
 npm -w frontend run dev  # Frontend dev server
-````
+```
 
 **5️⃣ Build for production**
-````bash
+```bash
 # Build all packages
 npm run build:all
 
 # Or specific builds:
 npm run build              # Frontend & shared
 npm run build:backend      # Backend only
-````
+```
 
 ### Blockchain Development
 
 **Setup Foundry environment:**
-````bash
+```bash
 cd Blockchain_backend
 
 # Install dependencies
@@ -245,13 +245,13 @@ forge test
 
 # Deploy contracts
 forge script script/Deploy.s.sol --broadcast
-````
+```
 
 ---
 
 ## 📁 Project Structure
 
-````
+```
 NayaSutra/
 ├── 📦 frontend/                 # React + TypeScript frontend
 │   ├── src/
@@ -303,12 +303,15 @@ NayaSutra/
 ├── 🔧 scripts/                  # Utility scripts
 │   └── assign-roles.ts          # Role assignment helper
 │
+├── 🖼 assets/                   # README images
+│   └── nyaysutra-demo.png
+│
 ├── package.json                 # Root monorepo config
 ├── tsconfig.json
 ├── vite.config.ts
 ├── tailwind.config.ts
 └── README.md
-````
+```
 
 ---
 
@@ -316,7 +319,7 @@ NayaSutra/
 
 ### System Overview
 
-````
+```
 ┌─────────────────────────────────────────────────────────────┐
 │                    Frontend (React + Web3)                   │
 │            Vite | TypeScript | Tailwind | Radix UI         │
@@ -336,7 +339,7 @@ NayaSutra/
         │  ⛓ Ethereum/Polygon/Local      │
         │  🔒 Role-Based Access Control   │
         └────────────────────────────────┘
-````
+```
 
 ### Data Flow
 
@@ -365,12 +368,12 @@ Central role management contract for judicial system access control.
 - `COURT_SYSTEM_ROLE` - System operations
 
 **Key Functions:**
-````solidity
+```solidity
 isJudge(address) → bool
 isLawyer(address) → bool
 isPolice(address) → bool
 isCourtSystem(address) → bool
-````
+```
 
 #### 2. **CourtSession.sol** ⚖️
 Manages judicial sessions and proceedings.
@@ -407,7 +410,7 @@ Manages First Information Report (FIR) records.
 
 ### Available Scripts
 
-````bash
+```bash
 # Development
 npm run dev              # Start frontend dev server
 npm run dev:all         # Start all services
@@ -430,12 +433,12 @@ forge deploy            # Deploy contracts
 
 # Utilities
 npm run assign-roles    # Assign blockchain roles
-````
+```
 
 ### Environment Files
 
 **Frontend (.env):**
-````env
+```env
 # Supabase Configuration
 VITE_SUPABASE_URL=https://your-project.supabase.co
 VITE_SUPABASE_ANON_KEY=your-anon-key
@@ -447,12 +450,12 @@ VITE_CONTRACT_ADDRESSES={"CourtAccessControl":"0x..."}
 # Feature Flags
 VITE_ENABLE_BLOCKCHAIN=true
 VITE_ENABLE_NOTIFICATIONS=true
-````
+```
 
 ### Debugging
 
 **VSCode Debug Configuration** (`.vscode/launch.json`):
-````json
+```json
 {
   "version": "0.2.0",
   "configurations": [
@@ -465,7 +468,7 @@ VITE_ENABLE_NOTIFICATIONS=true
     }
   ]
 }
-````
+```
 
 ---
 
@@ -474,21 +477,21 @@ VITE_ENABLE_NOTIFICATIONS=true
 We welcome contributions! Here's how to get started:
 
 ### 1. Fork & Clone
-````bash
+```bash
 git clone https://github.com/yourusername/NayaSutra.git
 cd NayaSutra
-````
+```
 
 ### 2. Create Feature Branch
-````bash
+```bash
 git checkout -b feature/your-feature-name
-````
+```
 
 ### 3. Make Changes & Commit
-````bash
+```bash
 git add .
 git commit -m "feat: add your feature description"
-````
+```
 
 **Commit Message Format:**
 - `feat:` New feature
@@ -500,9 +503,9 @@ git commit -m "feat: add your feature description"
 - `chore:` Maintenance
 
 ### 4. Push & Create Pull Request
-````bash
+```bash
 git push origin feature/your-feature-name
-````
+```
 
 ### Code Standards
 
@@ -565,12 +568,12 @@ git push origin feature/your-feature-name
 
 **Made with ❤️ by the NyaySutra Team**
 
-````
+```
 ╔════════════════════════════════════════╗
 ║  Blockchain Evidence Management       ║
 ║  Empowering Justice Through Technology ║
 ╚════════════════════════════════════════╝
-````
+```
 
 **[⬆ Back to Top](#-table-of-contents)**
 
@@ -580,7 +583,3 @@ git push origin feature/your-feature-name
 <sub>Last updated: February 2026</sub>
 
 </div>
-````
-````
-
-Make sure `assets/nyaysutra-demo.png` is uploaded to your repo, or the preview image won't show.
